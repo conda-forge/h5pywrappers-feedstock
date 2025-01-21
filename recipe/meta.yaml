@@ -1,5 +1,5 @@
 {% set name = "h5pywrappers" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/h5pywrappers-{{ version }}.tar.gz
-  sha256: e1552b9e3c15313ee28c7e6a8c82b641c3008dbfdcae236c3da1fd739cb0a3f5
+  sha256: 9589bca918434b40bba32faa47c33f3c421d0a606feda3009212278d02c012f1
 
 build:
   noarch: python
